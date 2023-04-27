@@ -1,0 +1,33 @@
+{
+  "name": "invoicevalidator",
+  "version": "1.0.0",
+  "description": "a validator system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThejasDevadiga/HacktoFuture.git"
+  },
+  "author": "Thejas Devadiga || KK Koushik || Hardik prabhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ThejasDevadiga/HacktoFuture/issues"
+  },
+  "homepage": "https://github.com/ThejasDevadiga/HacktoFuture#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "easyinvoice": "^3.0.15",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "http-proxy-middleware": "^2.0.6",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.3.6",
+    "nodemon": "^2.0.16",
+    "pug": "^3.0.2",
+    "tesseract.js": "^4.0.3"
+  }
+}

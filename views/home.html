@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invoice Validator</title>
+    <link rel="stylesheet" href="/home.css" />
+    <script src="/uploadImage.js"></script>
+    <script src="/requestor.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-inverse" style="background-color: #12192c;">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#myNavbar"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">INVOICE VALIDATOR</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+
+            <li><a href="/billing">Billing</a></li>
+            <li><a href="/about">About us</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="background">
+      <img 
+        src="https://img.freepik.com/free-vector/illustration-data-analysis-graph_53876-18130.jpg?w=1380&t=st=1682416995~exp=1682417595~hmac=81342bceb9271b338d2367311119859b253ef129ceee4e233aa78f5dbecce8f9"
+        alt=""
+        
+      />
+    </div>
+    <div class="formcontainer">
+      <div class="imagecontainer">
+        <img
+          id="preview"
+          src="#"
+          alt="Please select image"
+          width="300"
+          height="300"
+          style="display: none;"
+        />
+      </div>
+      <div class="form">
+        <form>
+          <div class="form-group">
+            <label for="invoice"><h2>Upload Your INVOICE</h2></label>
+            <input
+              type="file"
+              id="invoice"
+              accept="image/*"
+              onchange="displayImage()"
+            />
+          </div>
+          <div id="result" class="result"></div>
+          <!-- <input type="submit" value="Submit" /> -->
+        </form>
+        <div class="status">
+            
+        </div>
+      </div>
+      
+    </div>
+
+  </body>
+</html>

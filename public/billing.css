@@ -1,0 +1,136 @@
+.background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+    width: 100%;
+    /* background-image: url('https://img.freepik.com/free-vector/finance-financial-performance-concept-illustration_53876-43398.jpg?w=1380&t=st=1682421443~exp=1682422043~hmac=bbc13031926eb5accbf180d7343ff592c8ff59083334e7e044d2f6f5d387c715'); */
+    -webkit-filter: blur(2px);
+    filter: blur(3px);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   }
+   
+   .formcontainer{
+    
+       display: flex;
+       align-items: center;
+       height: 85%;
+       width: 50%;
+       background-color: #12192c;
+       border-radius: 20px;
+       justify-content: space-around;
+       flex-direction: column;
+       border: 3px solid #f1f1f1;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       transform: translate(-50%, -50%);
+       z-index: 2;
+       text-align: center;
+      
+   }
+   .formcontainer:hover{
+       box-shadow: 1px 1px 5px rgb(74, 74, 74);  
+       
+       
+   }
+p
+{
+       font-weight: bold;
+       font-size: 20px;
+       font-style: italic;
+       text-align: center;
+       color: rgb(255, 255, 255);
+
+}
+input[type="number"]{
+   color: black ;
+}
+
+input[type="file"]{
+    height: 5rem;
+    margin: none;
+    padding: 1rem;
+}
+#heading{
+    color: rgb(255, 255, 255);
+    font-weight:900;
+    font-size: 30px;
+    letter-spacing: 6px;
+    font-family:monospace;
+}
+input[type="button"]{
+    border-width: 3px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-radius: 20px;
+    border-color:#4158d0 ;
+    background-color: #12192c;
+    color: white;
+    font-size: 15px;
+    font-weight: 400;
+}
+select {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family:  sans-serif;
+    outline: 0;
+    background: rgb(109, 109, 109);
+    color: #fff;
+    border: none;
+    padding: 4px;
+    border-radius: 9px;
+}
+#bill-form{
+width: 100%;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 40%;
+    width: 100%;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+    color: #fff;
+    font-size: medium;
+    }
+
+.table{
+    display: flex;
+    height: 60%;
+    justify-content: center;
+   align-items: center;
+   flex-direction:column;
+   
+}
+tr{
+    width: 100%;
+    height: 5rem;
+    border: 20px white;
+    border-bottom: 12px;
+    
+
+    /* background-color: #f1f1f1; */
+}
+th{
+    font-size: large;
+    font-weight: 600;
+    text-align: center;
+    border-bottom:10px #4158d0;
+}
+
+#prod-list{
+    width: 90%;
+    color: #fff;
+}
+
+

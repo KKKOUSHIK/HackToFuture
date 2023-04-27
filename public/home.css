@@ -1,0 +1,91 @@
+body {
+  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 15px;
+}
+
+.background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  width: 100%;
+  /* background-image: url('https://img.freepik.com/free-vector/illustration-data-analysis-graph_53876-18130.jpg?w=1380&t=st=1682416995~exp=1682417595~hmac=81342bceb9271b338d2367311119859b253ef129ceee4e233aa78f5dbecce8f9'); */
+  -webkit-filter: blur(2px);
+    filter: blur(3px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+input[type="submit"] {
+  border-width: 3px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 20px;
+  border-color:#4158d0 ;
+  background-color: #12192c;
+  color: white;
+  
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.formcontainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  height: 60%;
+  width: 50%;
+  background-color: #12192c;
+  border-radius: 20px;
+  position: absolute;
+  border: 3px solid #f1f1f1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  text-align: center;
+}
+
+.result{
+color:rgb(205, 22, 22);
+font-weight: 600;
+
+}
+.formcontainer:hover {
+  box-shadow: 1px 1px 5px rgb(74, 74, 74);
+}
+
+.a{
+ border:20px #4158d0;
+}
+
+input[type="file"] {
+  height: 5rem;
+  margin: none;
+  color: white;
+  padding: 1rem;
+  border: 2px white;
+  margin-left: 10rem;
+}
+
+label h2 {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-family: monospace;
+  text-transform: uppercase;
+  font-size: 23px;
+  letter-spacing: 6px;
+  opacity: 0.9;
+}
+#btn {
+  border: none;
+  border-radius: 20px;
+
+  background-color: rgb(0, 131, 237);
+  color: white;
+  padding: 4%;
+  font-size: 15px;
+  font-weight: 400;
+}
